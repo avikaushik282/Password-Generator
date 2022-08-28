@@ -25,4 +25,4 @@ password = random.sample(password,k = lenght)
 new_pass = ""
 for i in range(0, lenght):
     new_pass = new_pass + password[i]
-print(new_pass)
+print(f"Your password is {new_pass}")
